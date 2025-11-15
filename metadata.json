@@ -1,0 +1,7 @@
+{
+  "name": "リアルタイム文字起こし＆翻訳",
+  "description": "マイクからの音声をリアルタイムで文字に起こし、指定した言語に翻訳します。最大3つの言語を同時に識別できます。",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
