@@ -18,3 +18,25 @@ View your app in AI Studio: https://ai.studio/apps/drive/1XNmeOcH_cAXejRbbelPwq6
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Documentation
+
+- **[SPECIFICATION.md](SPECIFICATION.md)**: 詳細な仕様書（Mermaidシーケンス図を含むUML）
+- **[TESTING.md](TESTING.md)**: テストガイドとテスト仕様
+
+## Testing
+
+テストを実行：
+
+```bash
+# 全テストを実行
+npm test
+
+# UIモードでテストを実行
+npm run test:ui
+
+# カバレッジレポートを生成
+npm run test:coverage
+```
+
+詳細は [TESTING.md](TESTING.md) をご覧ください。
